@@ -1,0 +1,43 @@
+.footer {
+  background-color: hsl(356, 92%, 40%);        /* dark background for contrast */
+  color: #f1f1f1;                /* light text for readability */
+  padding: 2rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 0.95rem;
+  border-top: 2px solid #e23e3e; /* optional red accent line */
+}
+
+.footer h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.footer p {
+  margin: 0.3rem 0;
+  line-height: 1.5;
+}
+
+.location,
+.contact-info,
+.business-hour {
+  flex: 1 1 250px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .location,
+  .contact-info,
+  .business-hour {
+    flex: none;
+  }
+}

@@ -1,0 +1,23 @@
+.home {
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.head-image{
+  margin: 0;
+  padding: 0;
+  
+}
+
+.head-image img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 80px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+  
+}
+
