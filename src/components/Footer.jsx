@@ -19,7 +19,7 @@ function Footer(){
                 target="_blank"
                 rel="noopener noreferrer"
                 >
-                    <img className="insta-link" src="images/icon1.png" alt="Instagram" />
+                    <img className="insta-link" src="/pocha/images/icon1.png" alt="Instagram" />
                 </a>
                 <a 
                 href="https://www.google.com/maps/place/Pocha+is+Back/@30.3358804,-97.7205053,17z/data=!3m1!4b1!4m6!3m5!1s0x8644cb680b7b5063:0xba4e09a1744ba7d1!8m2!3d30.3358804!4d-97.7205053!16s%2Fg%2F11s8_v4x4g?entry=ttu&g_ep=EgoyMDI1MDcxNi4wIKXMDSoASAFQAw%3D%3D" 
@@ -27,7 +27,7 @@ function Footer(){
                 target="_blank"
                 rel="noopener noreferrer"
                 >
-                    <img className="insta-link" src="images/icon2.png" alt="Instagram" />
+                    <img className="insta-link" src="/pocha/images/icon2.png" alt="Instagram" />
                 </a>
         
             </div>
